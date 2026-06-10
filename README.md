@@ -47,34 +47,6 @@ CalcVerse combines multiple powerful mathematical tools into a single interactiv
 3. Process the input instantly.
 4. View results, graphs, statistics, or solutions.
 5. Save and review calculation history.
-
----
-persistence
-📁 Project Structure
-ai-calculator/
-├── app.py                  # Main Streamlit app & UI routing
-├── calculator_engine.py    # Core expression evaluation logic
-├── database.py             # SQLite history: create, save, fetch
-├── requirements.txt        # Python dependencies
-└── README.md
----
-
-🚀 Run Locally
-# 1. Clone the repo
-git clone https://huggingface.co/spaces/Bandana17/ai-calculator
-cd ai-calculator
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Install Tesseract OCR engine (required for OCR calculator)
-# Ubuntu/Debian:
-sudo apt-get install tesseract-ocr
-# macOS:
-brew install tesseract
-
-# 4. Launch the app
-streamlit run app.py
 ---
 
 ## 🎯 Learning Outcomes
